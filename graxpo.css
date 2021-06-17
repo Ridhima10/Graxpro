@@ -88,6 +88,7 @@ a{
     text-decoration: none;
     padding: 1.8rem 1rem 1.5rem 1rem;
     color: var(--secondary);
+    font-weight: 600;
 }
 .active,a:hover{
     color: var(--primary);
@@ -223,6 +224,7 @@ main{
     position: relative;
     top: 1rem;
     font-size: 1rem;
+    font-weight: 600;
 }
 .icon2::before{
     content: '';
@@ -315,7 +317,7 @@ footer>span{
         align-items: center;
     }
     .first {                                         /*Header*/
-        font-size: 1.5rem;
+        font-size: 1.34rem;
         margin: 0rem 0.7rem 0rem 2.4rem;
     }
     .img1{
@@ -326,6 +328,9 @@ footer>span{
     }
     .second{
         font-size: 0.8rem;
+        letter-spacing: 2.7px;
+        position: relative;
+        left: 0.9rem;
     } 
     .about{                                /*sec 1*/
         margin-right: 0rem;
@@ -400,7 +405,7 @@ footer>span{
     }
     .second{                                /*header*/
         font-size: 0.8rem;
-        letter-spacing: 1px;
+        letter-spacing: 0.1px;
     }
     .img1{
         top:8.5rem;
@@ -447,5 +452,6 @@ footer>span{
     }
     .icon2>i ,.icon1,.first,.icon2>span{
         font-size: 0.9rem;
+        font-weight: 600;
     }
 }
