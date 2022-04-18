@@ -393,8 +393,23 @@ footer>span{
     .logo>img {                              /*nav*/
         padding-bottom: 1rem;    
     }
+    .list{
+        position: fixed;
+        top: 4.5rem;
+        left: -100%;
+        background-color: var(--darker);
+        height: 100vh;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        transition: all 0.3s ease;
+    }
     .list>a{
-        display: none;
+        margin-top: 0.4rem;
+        font-size: 1.1rem;
+    }
+    #click:checked{
+        left: 0%;
     }
     .bar{
         display: block;
